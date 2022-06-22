@@ -1,0 +1,11 @@
+{
+  "defaults": {
+    "origin": "http://localhost:3000",
+    "transport": "state"
+  },
+  "google": {
+    "key": "406103877817-7mvsac2gv7s3iq3oi0ngl4.apps.googleusercontent.com",
+    "secret": "GOCSPX-g8kKVoCiutKP1km3_A"
+  },
+  "twitter": {}
+}

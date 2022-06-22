@@ -1,0 +1,4 @@
+.vercel
+node_modules
+built-time.js
+api/config.json

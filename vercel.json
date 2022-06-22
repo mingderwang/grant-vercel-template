@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "alias": ["connect-google.muzamint.com"],
+  "rewrites": [{ "source": "/connect/(.*)", "destination": "/api/grant" }]
+}

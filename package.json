@@ -1,0 +1,26 @@
+{
+  "name": "grant-examples",
+  "version": "0.0.0",
+  "description": "Grant Examples",
+  "private": true,
+  "license": "MIT",
+  "homepage": "https://github.com/simov/grant",
+  "author": "Simeon Velichkov <simeonvelichkov@gmail.com> (https://simov.github.io)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simov/grant.git"
+  },
+  "dependencies": {
+    "@vercel/node": "^2.2.0",
+    "grant": "^5.4.9"
+  },
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod",
+    "vercel-build": "node ./build.js",
+    "test": "open http://localhost:3000/connect/google"
+  },
+  "devDependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
